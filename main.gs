@@ -1,5 +1,5 @@
 const doPost = e => {
-  // checkAuthentication(e);
+  checkAuthentication(e);
 
   const commandType = e.parameter.command
   const command = e.parameter.text;
